@@ -1,6 +1,19 @@
 <div align="center">
 
 <a href="https://rendobar.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.rendobar.com/assets/brand/logo-mark.svg">
+    <img alt="Rendobar" src="https://cdn.rendobar.com/assets/brand/logo-mark-black.svg" width="96">
+  </picture>
+</a>
+
+### Rendobar
+
+Media processing API for developers and agents
+
+<br>
+
+<a href="https://rendobar.com">
   <img src="https://rendobar.com/brand/og-default.jpg" alt="Rendobar: media processing API for developers and agents" width="100%">
 </a>
 
