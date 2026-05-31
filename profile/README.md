@@ -20,8 +20,8 @@ Media processing API for developers and agents
 <br>
 <br>
 
-[![Website](https://img.shields.io/badge/rendobar.com-0A0A0A?style=flat-square&logoColor=white)](https://rendobar.com)
-[![Docs](https://img.shields.io/badge/Docs-059669?style=flat-square)](https://rendobar.com/docs)
+[![Website](https://raw.githubusercontent.com/rendobar/.github/main/assets/badge-website.svg)](https://rendobar.com)
+[![Docs](https://raw.githubusercontent.com/rendobar/.github/main/assets/badge-docs.svg)](https://rendobar.com/docs)
 [![npm](https://img.shields.io/npm/v/@rendobar/sdk?style=flat-square&label=%40rendobar%2Fsdk&color=059669)](https://www.npmjs.com/package/@rendobar/sdk)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/kAGqjBzx8N)
 [![X](https://img.shields.io/badge/follow-%40rendobar-0A0A0A?style=flat-square&logo=x&logoColor=white)](https://x.com/rendobar)
