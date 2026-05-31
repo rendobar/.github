@@ -58,16 +58,16 @@ The platform exposes several products. Rendobar's FFmpeg API runs raw FFmpeg com
 - **Bugs:** open an issue on the relevant repository.
 - **Security:** see [SECURITY.md](https://github.com/rendobar/.github/blob/main/SECURITY.md). Please report privately.
 
-## Built with Rendobar
+## Powered by Rendobar
 
 Shipping on Rendobar? Add the badge to your README:
 
 ```md
-[![Built with Rendobar](https://raw.githubusercontent.com/rendobar/.github/main/assets/built-with-rendobar.svg)](https://rendobar.com)
+[![Powered by Rendobar](https://raw.githubusercontent.com/rendobar/.github/main/assets/built-with-rendobar.svg)](https://rendobar.com)
 ```
 
 <div align="center">
 
-[![Built with Rendobar](https://raw.githubusercontent.com/rendobar/.github/main/assets/built-with-rendobar.svg)](https://rendobar.com)
+[![Powered by Rendobar](https://raw.githubusercontent.com/rendobar/.github/main/assets/built-with-rendobar.svg)](https://rendobar.com)
 
 </div>
