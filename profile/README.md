@@ -63,11 +63,11 @@ The platform exposes several products. Rendobar's FFmpeg API runs raw FFmpeg com
 Shipping on Rendobar? Add the badge to your README:
 
 ```md
-[![Built with Rendobar](https://img.shields.io/badge/built%20with-Rendobar-059669?style=flat-square)](https://rendobar.com)
+[![Built with Rendobar](https://raw.githubusercontent.com/rendobar/.github/main/assets/built-with-rendobar.svg)](https://rendobar.com)
 ```
 
 <div align="center">
 
-[![Built with Rendobar](https://img.shields.io/badge/built%20with-Rendobar-059669?style=flat-square)](https://rendobar.com)
+[![Built with Rendobar](https://raw.githubusercontent.com/rendobar/.github/main/assets/built-with-rendobar.svg)](https://rendobar.com)
 
 </div>
