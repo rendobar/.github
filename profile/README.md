@@ -1,29 +1,17 @@
-<!--
-  Rendobar — organization profile README
-  Renders at https://github.com/rendobar
-  To add a banner: drop logo-light.svg / logo-dark.svg in this repo's /assets
-  folder and uncomment the <picture> block below.
--->
-
 <div align="center">
 
-<!--
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/logo-dark.svg">
-  <img alt="Rendobar" src="./assets/logo-light.svg" width="280">
-</picture>
--->
+<a href="https://rendobar.com">
+  <img src="./assets/og-default.jpg" alt="Rendobar: media processing API for developers and agents" width="100%">
+</a>
 
-# Rendobar
+<br>
+<br>
 
-### Video rendering infrastructure for developers and agents
-
-Run FFmpeg as a hosted API. Submit a job, get back a rendered file — no servers, no queues, no GPU babysitting.
-
-[![Website](https://img.shields.io/badge/website-rendobar.com-000?style=flat-square)](https://rendobar.com)
-[![Docs](https://img.shields.io/badge/docs-rendobar.com%2Fdocs-000?style=flat-square)](https://rendobar.com/docs)
-[![npm](https://img.shields.io/npm/v/@rendobar/sdk?style=flat-square&label=%40rendobar%2Fsdk)](https://www.npmjs.com/package/@rendobar/sdk)
-[![License](https://img.shields.io/badge/license-MIT-000?style=flat-square)](https://github.com/rendobar)
+[![Website](https://img.shields.io/badge/rendobar.com-0A0A0A?style=flat-square&logoColor=white)](https://rendobar.com)
+[![Docs](https://img.shields.io/badge/Docs-059669?style=flat-square)](https://rendobar.com/docs)
+[![npm](https://img.shields.io/npm/v/@rendobar/sdk?style=flat-square&label=%40rendobar%2Fsdk&color=059669)](https://www.npmjs.com/package/@rendobar/sdk)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/rendobar)
+[![X](https://img.shields.io/badge/follow-%40rendobar-0A0A0A?style=flat-square&logo=x&logoColor=white)](https://x.com/rendobar)
 
 </div>
 
@@ -31,35 +19,42 @@ Run FFmpeg as a hosted API. Submit a job, get back a rendered file — no server
 
 ## What is Rendobar?
 
-**Rendobar is a platform for video rendering infrastructure.** Its first product is a hosted **FFmpeg API** — you send raw FFmpeg parameters over HTTP and Rendobar runs them on serverless compute, handling input fetching, execution, storage, and delivery. Built for developers integrating video processing into their apps, and for AI agents that need to render media without managing infrastructure.
+Rendobar is a media processing platform for developers and agents. You send a job over one REST endpoint and get back a processed file. Rendobar runs the heavy work on managed serverless infrastructure, so there are no servers to provision, no queues to babysit, and no FFmpeg builds to maintain.
+
+The platform exposes several products. Rendobar's FFmpeg API runs raw FFmpeg commands in a sandboxed container. Alongside it sit higher-level operations for captions, watermarks, transcoding, and more, all billed from a single credit balance. It is MCP-native, so AI agents can call it through the Model Context Protocol the same way a human calls the REST API.
 
 ## Start here
 
-| You want to… | Go to |
+| You want to | Go to |
 | --- | --- |
-| Call the API from code | **[@rendobar/sdk](https://www.npmjs.com/package/@rendobar/sdk)** · [SDK docs](https://rendobar.com/docs) |
-| Render from your terminal | **[rendobar/cli](https://github.com/rendobar/cli)** — `curl rendobar.com/install.sh` |
-| Wire Rendobar into an AI agent | **[rendobar/mcp](https://github.com/rendobar/mcp)** — Model Context Protocol server |
-| Read the guides & API reference | **[rendobar.com/docs](https://rendobar.com/docs)** |
+| Call the API from TypeScript | **[`@rendobar/sdk`](https://www.npmjs.com/package/@rendobar/sdk)** on npm |
+| Process media from your terminal | **[`rendobar/cli`](https://github.com/rendobar/cli)** &nbsp;·&nbsp; `curl rendobar.com/install.sh` |
+| Wire Rendobar into an AI agent | **[`rendobar/mcp`](https://github.com/rendobar/mcp)** &nbsp;·&nbsp; `npx -y @rendobar/mcp` |
+| Read the guides and API reference | **[rendobar.com/docs](https://rendobar.com/docs)** |
 
-## Repositories
+## Public repositories
 
-- **[cli](https://github.com/rendobar/cli)** — Serverless video processing from your terminal. Single binary, 5 platforms, auto-update.
-- **[mcp](https://github.com/rendobar/mcp)** — Serverless media processing for AI agents. Published as `@rendobar/mcp` on npm.
-- **[docs](https://github.com/rendobar/docs)** — Guides, API reference, and job-type recipes.
+- **[cli](https://github.com/rendobar/cli):** the `rb` binary. Serverless media processing from your terminal. Single binary, five platforms, auto-update.
+- **[mcp](https://github.com/rendobar/mcp):** `@rendobar/mcp`, a stdio MCP server that gives Claude, Cursor, and other agents direct access to the platform, including local file uploads.
+- **[docs](https://github.com/rendobar/docs):** guides, API reference, and job-type recipes published at rendobar.com/docs.
 
-## Community & support
+## Community and support
 
-- 📖 Documentation — [rendobar.com/docs](https://rendobar.com/docs)
-- 🐛 Found a bug? Open an issue on the relevant repo.
-- 🔒 Security disclosures — see [SECURITY.md](https://github.com/rendobar/.github/blob/main/SECURITY.md)
+- **Docs:** [rendobar.com/docs](https://rendobar.com/docs)
+- **Discord:** [discord.gg/rendobar](https://discord.gg/rendobar)
+- **Bugs:** open an issue on the relevant repository.
+- **Security:** see [SECURITY.md](https://github.com/rendobar/.github/blob/main/SECURITY.md). Please report privately.
 
 ## Built with Rendobar
 
-Shipping something on Rendobar? Add the badge:
+Shipping on Rendobar? Add the badge to your README:
 
 ```md
-[![Built with Rendobar](https://img.shields.io/badge/built%20with-Rendobar-000?style=flat-square)](https://rendobar.com)
+[![Built with Rendobar](https://img.shields.io/badge/built%20with-Rendobar-059669?style=flat-square)](https://rendobar.com)
 ```
 
-[![Built with Rendobar](https://img.shields.io/badge/built%20with-Rendobar-000?style=flat-square)](https://rendobar.com)
+<div align="center">
+
+[![Built with Rendobar](https://img.shields.io/badge/built%20with-Rendobar-059669?style=flat-square)](https://rendobar.com)
+
+</div>

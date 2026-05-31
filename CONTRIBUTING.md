@@ -4,10 +4,10 @@ Thanks for your interest in contributing. These guidelines apply across all Rend
 
 ## Ways to contribute
 
-- **Report bugs** — open an issue on the relevant repository with clear reproduction steps.
-- **Suggest features** — open a feature request issue describing the problem you're solving.
-- **Improve docs** — fixes and clarifications to [rendobar/docs](https://github.com/rendobar/docs) are always welcome.
-- **Submit code** — see the workflow below.
+- **Report bugs.** Open an issue on the relevant repository with clear reproduction steps.
+- **Suggest features.** Open a feature request issue describing the problem you're solving.
+- **Improve docs.** Fixes and clarifications to [rendobar/docs](https://github.com/rendobar/docs) are always welcome.
+- **Submit code.** See the workflow below.
 
 ## Development workflow
 
@@ -20,13 +20,13 @@ Thanks for your interest in contributing. These guidelines apply across all Rend
 ## Pull request expectations
 
 - Reference the issue your PR addresses, if one exists.
-- Keep PRs scoped to a single concern — smaller PRs review faster.
+- Keep PRs scoped to a single concern. Smaller PRs review faster.
 - Describe how you tested the change.
 - CI must pass before review.
 
 ## Commit messages
 
-Use clear, imperative commit subjects (`fix: handle empty input URL`). Repos using conventional commits use **scopeless** prefixes (`feat:`, `fix:`, `chore:`) — not `feat(scope):`.
+Use clear, imperative commit subjects (`fix: handle empty input URL`). Most repos here follow [Conventional Commits](https://www.conventionalcommits.org). Match the convention already used in the repo you are contributing to. Run `git log --oneline -20` first to see the local style.
 
 ## Code of conduct
 
