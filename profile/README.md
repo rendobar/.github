@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://rendobar.com">
-  <img src="./assets/og-default.jpg" alt="Rendobar: media processing API for developers and agents" width="100%">
+  <img src="https://rendobar.com/brand/og-default.jpg" alt="Rendobar: media processing API for developers and agents" width="100%">
 </a>
 
 <br>
